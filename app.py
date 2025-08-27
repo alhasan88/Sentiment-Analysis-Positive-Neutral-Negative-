@@ -10,11 +10,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
 import os
 
-# Download required NLTK data
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('averaged_perceptron_tagger')
 
 # Load the saved model and vectorizer
 model = joblib.load('model.pkl')
